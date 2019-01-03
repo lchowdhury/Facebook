@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17362" started-at="2019-01-03T19:15:31Z" finished-at="2019-01-03T19:15:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17362" started-at="2019-01-03T19:15:31Z" finished-at="2019-01-03T19:15:48Z">
+      <class name="pageObject.SignInPage">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:pageObject.SignInPage@1e7c7811]" name="initializeDriver" is-config="true" duration-ms="4406" started-at="2019-01-03T19:15:31Z" finished-at="2019-01-03T19:15:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="SignInPage()[pri:0, instance:pageObject.SignInPage@1e7c7811]" name="SignInPage" duration-ms="9520" started-at="2019-01-03T19:15:35Z" finished-at="2019-01-03T19:15:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignInPage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:pageObject.SignInPage@1e7c7811]" name="closeBrowser" is-config="true" duration-ms="3401" started-at="2019-01-03T19:15:45Z" finished-at="2019-01-03T19:15:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- pageObject.SignInPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
