@@ -14,17 +14,17 @@ public class CreateAccount extends WebDriverFactory{
 		
 	LandingPage createAc = PageFactory.initElements(driver, LandingPage.class);
 		
-	createAc.fname("lobid");
+	createAc.fname("Orfatt");
 
 	createAc.lname("chowdhury");
-	createAc.mobem("dmg.lobid@gmail.com");
-	createAc.rpemail("dmg.lobid@gmail.com");
+	createAc.mobem("dmg.orfatt11@gmail.com");
+	createAc.rpemail("dmg.orfatt11@gmail.com");
 	createAc.pwd("dmg7894561");
 	createAc.mnth("mar");
 	createAc.date("8");
 	createAc.yar("1994");
-	createAc.btn();
-	createAc.srch();
+	//createAc.btn();
+	//createAc.srch();
 	}
 
 }
